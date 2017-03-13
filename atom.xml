@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-02-03T09:14:50.000Z</updated>
+  <updated>2017-03-13T07:17:08.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/01/22/others/%E9%9D%A2%E8%AF%95%E6%8C%87%E5%8D%97%E9%9A%8F%E8%AE%B01-%E6%B5%85%E4%B9%A6/"/>
     <id>http://yoursite.com/2017/01/22/others/面试指南随记1-浅书/</id>
     <published>2017-01-22T03:18:03.000Z</published>
-    <updated>2017-02-03T09:14:50.000Z</updated>
+    <updated>2017-03-13T07:17:08.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="索引"><a href="#索引" class="headerlink" title="索引"></a>索引</h2><p>HTML&amp;CSS</p>
 <blockquote>
@@ -34,6 +34,7 @@
 <blockquote>
 <p>HTTP、安全、正则、优化、重构、响应式、移动端、团队协作、可维护、SEO、UED、架构、职业生涯</p>
 </blockquote>
+<a id="more"></a>
 <h1 id="CSS-相关问题"><a href="#CSS-相关问题" class="headerlink" title="CSS 相关问题"></a>CSS 相关问题</h1><h3 id="display-none和visibility-hidden的区别？"><a href="#display-none和visibility-hidden的区别？" class="headerlink" title="display:none和visibility:hidden的区别？"></a>display:none和visibility:hidden的区别？</h3><pre><code>display:none  隐藏对应的元素，在文档布局中不再给它分配空间，它各边的元素会合拢，
 就当他从来不存在。
 
@@ -849,18 +850,27 @@ function unsetCookie(name) {
     
       &lt;h2 id=&quot;索引&quot;&gt;&lt;a href=&quot;#索引&quot; class=&quot;headerlink&quot; title=&quot;索引&quot;&gt;&lt;/a&gt;索引&lt;/h2&gt;&lt;p&gt;HTML&amp;amp;CSS&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;对Web标准的理解、浏览器内核差异、兼容性、hack、CSS基本功：布局、
+&lt;p&gt;对Web标准的理解、浏览器内核差异、兼容性、hack、CSS基本功：布局、盒子模型、选择器优先级及使用、HTML5、CSS3、移动端适应。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt; JavaScript&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;数据类型、面向对象、继承、闭包、插件、作用域、跨域、原型链、模块化、自定义事件、内存泄漏、事件机制、异步装载回调、模板引擎、Nodejs、JSON、ajax等。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt; 综合&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;HTTP、安全、正则、优化、重构、响应式、移动端、团队协作、可维护、SEO、UED、架构、职业生涯&lt;/p&gt;
+&lt;/blockquote&gt;
     
     </summary>
     
       <category term="others" scheme="http://yoursite.com/categories/others/"/>
     
     
-      <category term="面试题" scheme="http://yoursite.com/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
-    
       <category term="html" scheme="http://yoursite.com/tags/html/"/>
     
       <category term="css" scheme="http://yoursite.com/tags/css/"/>
+    
+      <category term="面试题" scheme="http://yoursite.com/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
     
       <category term="js" scheme="http://yoursite.com/tags/js/"/>
     
@@ -871,9 +881,10 @@ function unsetCookie(name) {
     <link href="http://yoursite.com/2017/01/22/jquery/js%E5%B8%B8%E7%94%A8%E5%B0%8F%E7%BB%84%E4%BB%B6/"/>
     <id>http://yoursite.com/2017/01/22/jquery/js常用小组件/</id>
     <published>2017-01-22T03:06:45.000Z</published>
-    <updated>2017-01-22T08:07:42.000Z</updated>
+    <updated>2017-03-13T07:16:26.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="pc"><a href="#pc" class="headerlink" title="pc"></a>pc</h1><h2 id="scroll滚动到底部加载"><a href="#scroll滚动到底部加载" class="headerlink" title="scroll滚动到底部加载"></a>scroll滚动到底部加载</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">$(window).scroll(function() &#123;</div><div class="line">    if ($(document).scrollTop() + $(window).height() &gt; $(document).height() - 100) &#123;</div><div class="line">        $.get(url, function(data) &#123;</div><div class="line">            $(&apos;#list&apos;).append(data);</div><div class="line">        &#125;);</div><div class="line">    &#125;</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<a id="more"></a>
 <h2 id="input–筛选"><a href="#input–筛选" class="headerlink" title="input–筛选"></a>input–筛选</h2><p> <a href="http://blog.csdn.net/mrhaoxiaojun/article/details/52512017" target="_blank" rel="external">input–筛选</a></p>
 <h2 id="根据日期筛选"><a href="#根据日期筛选" class="headerlink" title="根据日期筛选"></a>根据日期筛选</h2><p><a href="http://blog.csdn.net/mrhaoxiaojun/article/details/52852971" target="_blank" rel="external">根据日期筛选</a></p>
 <h2 id="javascript函数节流keyup"><a href="#javascript函数节流keyup" class="headerlink" title="javascript函数节流keyup"></a>javascript函数节流keyup</h2><p> <a href="http://blog.csdn.net/mrhaoxiaojun/article/details/52846441" target="_blank" rel="external">javascript函数节流 keyup</a></p>
@@ -893,7 +904,7 @@ function unsetCookie(name) {
     
     <summary type="html">
     
-      &lt;h1 id=&quot;pc&quot;&gt;&lt;a href=&quot;#pc&quot; class=&quot;headerlink&quot; title=&quot;pc&quot;&gt;&lt;/a&gt;pc&lt;/h1&gt;&lt;h2 id=&quot;scroll滚动到底部加载&quot;&gt;&lt;a href=&quot;#scroll滚动到底部加载&quot; class=&quot;headerlink&quot; title=
+      &lt;h1 id=&quot;pc&quot;&gt;&lt;a href=&quot;#pc&quot; class=&quot;headerlink&quot; title=&quot;pc&quot;&gt;&lt;/a&gt;pc&lt;/h1&gt;&lt;h2 id=&quot;scroll滚动到底部加载&quot;&gt;&lt;a href=&quot;#scroll滚动到底部加载&quot; class=&quot;headerlink&quot; title=&quot;scroll滚动到底部加载&quot;&gt;&lt;/a&gt;scroll滚动到底部加载&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$(window).scroll(function() &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    if ($(document).scrollTop() + $(window).height() &amp;gt; $(document).height() - 100) &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        $.get(url, function(data) &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;            $(&amp;apos;#list&amp;apos;).append(data);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &amp;#125;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;);&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
@@ -909,9 +920,10 @@ function unsetCookie(name) {
     <link href="http://yoursite.com/2017/01/22/htmlcss/html%E5%B8%B8%E7%94%A8%E5%B0%8F%E7%BB%84%E4%BB%B6/"/>
     <id>http://yoursite.com/2017/01/22/htmlcss/html常用小组件/</id>
     <published>2017-01-22T03:06:03.000Z</published>
-    <updated>2017-01-22T08:08:08.000Z</updated>
+    <updated>2017-03-13T07:15:56.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="常用结构"><a href="#常用结构" class="headerlink" title="常用结构"></a>常用结构</h1><h2 id="左侧固定，右侧自适应"><a href="#左侧固定，右侧自适应" class="headerlink" title="左侧固定，右侧自适应"></a>左侧固定，右侧自适应</h2><p>NO1.</p>
+    <content type="html"><![CDATA[<h1 id="常用结构"><a href="#常用结构" class="headerlink" title="常用结构"></a>常用结构</h1><h2 id="左侧固定，右侧自适应"><a href="#左侧固定，右侧自适应" class="headerlink" title="左侧固定，右侧自适应"></a>左侧固定，右侧自适应</h2><a id="more"></a>
+<p>NO1.</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div></pre></td><td class="code"><pre><div class="line">&lt;html&gt;</div><div class="line"></div><div class="line">&lt;head&gt;</div><div class="line">    &lt;meta charset=&quot;utf-8&quot;&gt;</div><div class="line">    &lt;title&gt;左侧固定右侧自适应&lt;/title&gt;</div><div class="line">&lt;/head&gt;</div><div class="line"></div><div class="line">&lt;body&gt;</div><div class="line">    &lt;style type=&quot;text/css&quot;&gt;</div><div class="line">    html,</div><div class="line">    body &#123;</div><div class="line">        margin: 0;</div><div class="line">        padding: 0;</div><div class="line">    &#125;</div><div class="line">    </div><div class="line">    .all &#123;</div><div class="line">        width: 100%;</div><div class="line">        height: 100%;</div><div class="line">    &#125;</div><div class="line">    </div><div class="line">    .left &#123;</div><div class="line">        width: 200px;</div><div class="line">        background: #3f4650;</div><div class="line">        position: fixed;</div><div class="line">        top: 0;</div><div class="line">        left: 0;</div><div class="line">        bottom: 0;</div><div class="line">    &#125;</div><div class="line">    </div><div class="line">    .right &#123;</div><div class="line">        margin-left: 200px;</div><div class="line">        min-width: 980px;</div><div class="line">        height: 100%;</div><div class="line">        background: #ccc;</div><div class="line">        position: relative;</div><div class="line">        z-index: 2;</div><div class="line">    &#125;</div><div class="line">    &lt;/style&gt;</div><div class="line">    &lt;div class=&quot;all&quot;&gt;</div><div class="line">        &lt;div class=&quot;left&quot;&gt;我是固定的&lt;/div&gt;</div><div class="line">        &lt;div class=&quot;right&quot;&gt;</div><div class="line">            &lt;div class=&quot;right_in&quot;&gt; 内容&lt;/div&gt;</div><div class="line">        &lt;/div&gt;</div><div class="line">    &lt;/div&gt;</div><div class="line">&lt;/body&gt;</div><div class="line"></div><div class="line">&lt;/html&gt;</div></pre></td></tr></table></figure>
 <p>NO2.</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div></pre></td><td class="code"><pre><div class="line">&lt;html&gt;</div><div class="line"></div><div class="line">&lt;head&gt;</div><div class="line">    &lt;meta charset=&quot;utf-8&quot;&gt;</div><div class="line">    &lt;title&gt;左侧固定右侧自适应&lt;/title&gt;</div><div class="line">&lt;/head&gt;</div><div class="line"></div><div class="line">&lt;body&gt;</div><div class="line">    &lt;style type=&quot;text/css&quot;&gt;</div><div class="line">    html,</div><div class="line">    body &#123;</div><div class="line">        margin: 0;</div><div class="line">        padding: 0;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    .all &#123;</div><div class="line">        width: 100%;</div><div class="line">        height: 100%;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    .left &#123;</div><div class="line">        float: left;</div><div class="line">        margin-left: -100%;</div><div class="line">        width: 100px;</div><div class="line">        height: 100%;</div><div class="line">        background: #990;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    .right &#123;</div><div class="line">        float: left;</div><div class="line">        width: 100%;</div><div class="line">        height: 100%;</div><div class="line">        background: #F90;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    .right_in &#123;</div><div class="line">        margin-left: 100px;</div><div class="line">        height: 100%;</div><div class="line">    &#125;</div><div class="line">    &lt;/style&gt;</div><div class="line">    &lt;div class=&quot;all&quot;&gt;</div><div class="line">        &lt;div class=&quot;right&quot;&gt;</div><div class="line">            &lt;div class=&quot;right_in&quot;&gt; 内容&lt;/div&gt;</div><div class="line">        &lt;/div&gt;</div><div class="line">        &lt;div class=&quot;left&quot;&gt;我是固定的&lt;/div&gt;</div><div class="line">    &lt;/div&gt;</div><div class="line">&lt;/body&gt;</div><div class="line"></div><div class="line">&lt;/html&gt;</div></pre></td></tr></table></figure>
@@ -930,7 +942,7 @@ function unsetCookie(name) {
     
     <summary type="html">
     
-      &lt;h1 id=&quot;常用结构&quot;&gt;&lt;a href=&quot;#常用结构&quot; class=&quot;headerlink&quot; title=&quot;常用结构&quot;&gt;&lt;/a&gt;常用结构&lt;/h1&gt;&lt;h2 id=&quot;左侧固定，右侧自适应&quot;&gt;&lt;a href=&quot;#左侧固定，右侧自适应&quot; class=&quot;headerlink&quot; titl
+      &lt;h1 id=&quot;常用结构&quot;&gt;&lt;a href=&quot;#常用结构&quot; class=&quot;headerlink&quot; title=&quot;常用结构&quot;&gt;&lt;/a&gt;常用结构&lt;/h1&gt;&lt;h2 id=&quot;左侧固定，右侧自适应&quot;&gt;&lt;a href=&quot;#左侧固定，右侧自适应&quot; class=&quot;headerlink&quot; title=&quot;左侧固定，右侧自适应&quot;&gt;&lt;/a&gt;左侧固定，右侧自适应&lt;/h2&gt;
     
     </summary>
     
@@ -948,7 +960,7 @@ function unsetCookie(name) {
     <link href="http://yoursite.com/2017/01/22/node/Express%E7%AE%80%E8%BF%B0%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E6%B5%85%E4%B9%A6/"/>
     <id>http://yoursite.com/2017/01/22/node/Express简述学习笔记-浅书/</id>
     <published>2017-01-22T02:58:49.000Z</published>
-    <updated>2017-01-22T08:06:38.000Z</updated>
+    <updated>2017-03-13T07:16:44.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="helloworld"><a href="#helloworld" class="headerlink" title="helloworld"></a>helloworld</h1><h2 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h2><h3 id="全栈工程师"><a href="#全栈工程师" class="headerlink" title="全栈工程师"></a>全栈工程师</h3><p>掌握多种技能，能利用各种技术独立完成项目或产品的人</p>
 <blockquote>
@@ -971,6 +983,7 @@ function unsetCookie(name) {
 <p>全栈优势</p>
 </blockquote>
 <p>技能全<br>学习能力强<br>沟通成本低</p>
+<a id="more"></a>
 <h3 id="node-js的包管理系统已经成为世界上最大的开源库生态系统"><a href="#node-js的包管理系统已经成为世界上最大的开源库生态系统" class="headerlink" title="node.js的包管理系统已经成为世界上最大的开源库生态系统"></a>node.js的包管理系统已经成为世界上最大的开源库生态系统</h3><p>地址：<a href="https://www.npmjs.com/" target="_blank" rel="external">https://www.npmjs.com/</a></p>
 <p>简单的说 Node.js 就是运行在服务端的 JavaScript,打破了前后端的语言边界，解放了前端程序员的职责约束，可以在更大的舞台上施展空间。</p>
 <ul>
@@ -1100,7 +1113,27 @@ function unsetCookie(name) {
     
     <summary type="html">
     
-      &lt;h1 id=&quot;helloworld&quot;&gt;&lt;a href=&quot;#helloworld&quot; class=&quot;headerlink&quot; title=&quot;helloworld&quot;&gt;&lt;/a&gt;helloworld&lt;/h1&gt;&lt;h2 id=&quot;前言：&quot;&gt;&lt;a href=&quot;#前言：&quot; class=&quot;header
+      &lt;h1 id=&quot;helloworld&quot;&gt;&lt;a href=&quot;#helloworld&quot; class=&quot;headerlink&quot; title=&quot;helloworld&quot;&gt;&lt;/a&gt;helloworld&lt;/h1&gt;&lt;h2 id=&quot;前言：&quot;&gt;&lt;a href=&quot;#前言：&quot; class=&quot;headerlink&quot; title=&quot;前言：&quot;&gt;&lt;/a&gt;前言：&lt;/h2&gt;&lt;h3 id=&quot;全栈工程师&quot;&gt;&lt;a href=&quot;#全栈工程师&quot; class=&quot;headerlink&quot; title=&quot;全栈工程师&quot;&gt;&lt;/a&gt;全栈工程师&lt;/h3&gt;&lt;p&gt;掌握多种技能，能利用各种技术独立完成项目或产品的人&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;前端开发&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;html css javascript jquery 特效 前端优化 前后端联合优化 各种自动化框架与工具&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;后端开发&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;linux node.js java restful服务 api的服务 实现中间层 常用框架  async mysql promise blurbird&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;移动端开发&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;vue ionic angular react react native phonegap 微信&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;数据库&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;mysql redis memcached mongodb&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;全栈优势&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;技能全&lt;br&gt;学习能力强&lt;br&gt;沟通成本低&lt;/p&gt;
     
     </summary>
     
@@ -1118,7 +1151,7 @@ function unsetCookie(name) {
     <link href="http://yoursite.com/2017/01/06/hexo/%E6%84%9F%E6%82%9F/"/>
     <id>http://yoursite.com/2017/01/06/hexo/感悟/</id>
     <published>2017-01-06T07:28:57.000Z</published>
-    <updated>2017-01-06T09:38:52.000Z</updated>
+    <updated>2017-03-13T07:17:40.000Z</updated>
     
     <content type="html"><![CDATA[<p>———-终于把拖延了一年的github博客搭建起来了，说起搭建博客，感情好多。。。</p>
 <p>———-入行前端开发的一个小白开始，我从网上查阅资料解决一些工作上的问题，我发现大多都是其他的人个人博客，托管到某一个免费域下，后来我就申请了一个csdn账号，开始写博客，积累自己和转载他人，这之间大概拖延了一年左右，到15年才培养和养成了在csdn上写博客的习惯</p>
@@ -1130,6 +1163,7 @@ function unsetCookie(name) {
 <p>人不能懒惰，或者适当懒惰，决不能太懒惰，不然会得病的，缺钱，缺朋友，缺亲人，希望看到的人，和我自己都能够坚持，，，报错写点东西的心态，和保持锻炼身体的实践，，，毕竟身体是革命的本钱</p>
 <p>———-与君共勉—-业精于勤疏于惰，人活于动死于懒</p>
 <p>———- 将我搭建博客的参考资料给大家贴一下</p>
+<a id="more"></a>
 <p>hexo官方中文文档：<a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="external">https://hexo.io/zh-cn/docs/index.html</a></p>
 <p>next主题官网：<a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="external">http://theme-next.iissnan.com/getting-started.html</a></p>
 <p>其他查阅地址：</p>
@@ -1147,7 +1181,15 @@ function unsetCookie(name) {
     <summary type="html">
     
       &lt;p&gt;———-终于把拖延了一年的github博客搭建起来了，说起搭建博客，感情好多。。。&lt;/p&gt;
-&lt;p&gt;———-入行前端开发的一个小白开始，我从网上查阅资料解决一些工作上的问题，我发现大多都是其他的人个人博客，托管到某一个免费域下，后来我就申请了一个csdn账号，开始写博客，积累
+&lt;p&gt;———-入行前端开发的一个小白开始，我从网上查阅资料解决一些工作上的问题，我发现大多都是其他的人个人博客，托管到某一个免费域下，后来我就申请了一个csdn账号，开始写博客，积累自己和转载他人，这之间大概拖延了一年左右，到15年才培养和养成了在csdn上写博客的习惯&lt;/p&gt;
+&lt;p&gt;———-github早已到来，行业比较推崇的托管，而且确实给我们带来很多遍历，也有很多的人在这里分享自己的技术成功，许多人将自己的博客托管到github上，一点不例外，我也比较喜欢，但是拖延症严重的我，直到今天才把这件事搞定，之前也有自己写的，用github自己的模式生成博客，后来就弃用了&lt;/p&gt;
+&lt;p&gt;———-最早从同学那里得知hexo，没有细究，后来过来几个月，发现jekyll这个生成器，搭建过程中，发现要转ruby和python之类的依赖，表示没有太多好感，简单搭建后在查阅资料的时候发现博文中提到了hexo这个博客的生成器&lt;/p&gt;
+&lt;p&gt;———-hexo之路开始，他是基于node而开发的，那么兴趣来了，就是一顿搞，github+node+git 对我来说都不陌生，不会的无非是去npm的官网好github的官网去查阅资料，用hexo搭建博客，选用next的主题，这个主题是一个台湾的学生开发的，惭愧，我在问自己，为你还停留在用别人的地步，而且还是懒得用不去用&lt;/p&gt;
+&lt;p&gt;———-所以，我想起了，我一年前之所想，就是自己搞一个网站来做点什么东西，一年我就注册了域名，在域名下扔了点东西，到现在还没有继续的维护和更新下去，所以我决定下一步开始利用个人时间去做一些事情对我的域名，，，，，呵呵&lt;/p&gt;
+&lt;p&gt;———-这就是我从业以来的博客路，csdn，github，各人站点，稀稀拉拉3年了&lt;/p&gt;
+&lt;p&gt;人不能懒惰，或者适当懒惰，决不能太懒惰，不然会得病的，缺钱，缺朋友，缺亲人，希望看到的人，和我自己都能够坚持，，，报错写点东西的心态，和保持锻炼身体的实践，，，毕竟身体是革命的本钱&lt;/p&gt;
+&lt;p&gt;———-与君共勉—-业精于勤疏于惰，人活于动死于懒&lt;/p&gt;
+&lt;p&gt;———- 将我搭建博客的参考资料给大家贴一下&lt;/p&gt;
     
     </summary>
     
@@ -1167,9 +1209,10 @@ function unsetCookie(name) {
     <link href="http://yoursite.com/2017/01/06/hexo/%E7%BB%95%E5%BC%80%E5%9D%91/"/>
     <id>http://yoursite.com/2017/01/06/hexo/绕开坑/</id>
     <published>2017-01-06T07:01:38.000Z</published>
-    <updated>2017-01-06T07:23:56.000Z</updated>
+    <updated>2017-03-13T07:18:02.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="配置LeanCloud-为next主题添加阅读统计功能"><a href="#配置LeanCloud-为next主题添加阅读统计功能" class="headerlink" title="配置LeanCloud(为next主题添加阅读统计功能)"></a>配置LeanCloud(为next主题添加阅读统计功能)</h3><p>在注册完成LeanCloud帐号并验证邮箱之后，我们就可以登录我们的LeanCloud帐号，进行一番配置之后拿到<code>AppID</code>以及<code>AppKey</code>这两个参数即可正常使用文章阅读量统计的功能了。</p>
+<a id="more"></a>
 <h4 id="创建应用"><a href="#创建应用" class="headerlink" title="创建应用"></a>创建应用</h4><ul>
 <li><p>我们新建一个应用来专门进行博客的访问统计的数据操作。首先，打开控制台，如下图所示：</p>
 <p><img src="../images/leancloud/open_consoloe.png" alt="open_consoloe"></p>
@@ -1264,7 +1307,7 @@ function unsetCookie(name) {
     
     <summary type="html">
     
-      &lt;h3 id=&quot;配置LeanCloud-为next主题添加阅读统计功能&quot;&gt;&lt;a href=&quot;#配置LeanCloud-为next主题添加阅读统计功能&quot; class=&quot;headerlink&quot; title=&quot;配置LeanCloud(为next主题添加阅读统计功能)&quot;&gt;&lt;/a&gt;配置Le
+      &lt;h3 id=&quot;配置LeanCloud-为next主题添加阅读统计功能&quot;&gt;&lt;a href=&quot;#配置LeanCloud-为next主题添加阅读统计功能&quot; class=&quot;headerlink&quot; title=&quot;配置LeanCloud(为next主题添加阅读统计功能)&quot;&gt;&lt;/a&gt;配置LeanCloud(为next主题添加阅读统计功能)&lt;/h3&gt;&lt;p&gt;在注册完成LeanCloud帐号并验证邮箱之后，我们就可以登录我们的LeanCloud帐号，进行一番配置之后拿到&lt;code&gt;AppID&lt;/code&gt;以及&lt;code&gt;AppKey&lt;/code&gt;这两个参数即可正常使用文章阅读量统计的功能了。&lt;/p&gt;
     
     </summary>
     
@@ -1281,14 +1324,15 @@ function unsetCookie(name) {
   
   <entry>
     <title>GitHub+Hexo+Next搭建免费独立个人博客</title>
-    <link href="http://yoursite.com/2017/01/04/hexo/GitHub+Hexo+Next%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E7%8B%AC%E7%AB%8B%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://yoursite.com/2017/01/04/hexo/GitHub+Hexo+Next搭建免费独立个人博客/</id>
+    <link href="http://yoursite.com/2017/01/04/GitHub+Hexo+Next%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E7%8B%AC%E7%AB%8B%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2017/01/04/GitHub+Hexo+Next搭建免费独立个人博客/</id>
     <published>2017-01-04T06:55:25.000Z</published>
-    <updated>2017-01-06T07:07:32.000Z</updated>
+    <updated>2017-03-13T07:27:54.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>—–个人认为不用通篇阅读官方文档，网上很多包括我自己的博文基本可以初步搭建起来自己的博客，然后可能按照你的预想做东西还会有很多坑，再去查阅文档和其他资料，本博客略掉简单的操作步骤，但是会给大家提供一些较全的，零基础的博客地址，我主要是记录自己搭建是绕过的坑</p>
 <p><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">Hexo官方帮助文档</a></p>
 <p><a href="http://opiece.me/2015/04/09/hexo-guide/" target="_blank" rel="external">3.0搭建教程</a></p>
+<a id="more"></a>
 <h2 id="准备：配置开发环境"><a href="#准备：配置开发环境" class="headerlink" title="准备：配置开发环境"></a>准备：配置开发环境</h2><p>依次下载安装：</p>
 <ul>
 <li><a href="https://nodejs.org/en/download/" target="_blank" rel="external">Node.js</a></li>
@@ -1357,7 +1401,111 @@ function unsetCookie(name) {
     
     <summary type="html">
     
-      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;—–个人认为不用通篇阅读官方文档，网上很多包括我自己的博文基本可以初步搭建起来自己的博客，然后可能按照你的预想做东西还会有很多坑，再去查阅文
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;—–个人认为不用通篇阅读官方文档，网上很多包括我自己的博文基本可以初步搭建起来自己的博客，然后可能按照你的预想做东西还会有很多坑，再去查阅文档和其他资料，本博客略掉简单的操作步骤，但是会给大家提供一些较全的，零基础的博客地址，我主要是记录自己搭建是绕过的坑&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hexo.io/zh-cn/docs/&quot;&gt;Hexo官方帮助文档&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://opiece.me/2015/04/09/hexo-guide/&quot;&gt;3.0搭建教程&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+    
+      <category term="github" scheme="http://yoursite.com/tags/github/"/>
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="next" scheme="http://yoursite.com/tags/next/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GitHub+Hexo+Next搭建免费独立个人博客</title>
+    <link href="http://yoursite.com/2017/01/04/hexo/GitHub+Hexo+Next%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E7%8B%AC%E7%AB%8B%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2017/01/04/hexo/GitHub+Hexo+Next搭建免费独立个人博客/</id>
+    <published>2017-01-04T06:55:25.000Z</published>
+    <updated>2017-03-13T07:17:28.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>—–个人认为不用通篇阅读官方文档，网上很多包括我自己的博文基本可以初步搭建起来自己的博客，然后可能按照你的预想做东西还会有很多坑，再去查阅文档和其他资料，本博客略掉简单的操作步骤，但是会给大家提供一些较全的，零基础的博客地址，我主要是记录自己搭建是绕过的坑</p>
+<p><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">Hexo官方帮助文档</a></p>
+<p><a href="http://opiece.me/2015/04/09/hexo-guide/" target="_blank" rel="external">3.0搭建教程</a></p>
+<h2 id="准备：配置开发环境"><a href="#准备：配置开发环境" class="headerlink" title="准备：配置开发环境"></a>准备：配置开发环境</h2><p>依次下载安装：</p>
+<ul>
+<li><a href="https://nodejs.org/en/download/" target="_blank" rel="external">Node.js</a></li>
+<li><a href="http://git-scm.com/downloads" target="_blank" rel="external">Git</a></li>
+</ul>
+<p>不要问我怎么安装，傻瓜式安装，下一步下一步，不会找谷歌</p>
+<a id="more"></a>
+<h2 id="注册访问Github"><a href="#注册访问Github" class="headerlink" title="注册访问Github"></a>注册访问<a href="https://github.com/" target="_blank" rel="external">Github</a></h2><p>Github为广大开发者提供了一个非常好的平台，不仅是代码的开源，同时Github还提供了开发者可以在Github上建立自己的站点。这个功能的局限是只能创建静态的网站。</p>
+<p>注册完成后，需要验证邮箱。QQ邮妥妥的</p>
+<p>怎么注册？我的个娘，请找度娘</p>
+<p>注册完成之后，</p>
+<p>创建repository </p>
+<p> <img src="../images/repository-01.png" alt="repository-01"></p>
+<p>创建时，只需要填写Repository name即可，当然这个名字的格式必须为<code>youname.github.io</code>，例如我的为mrhaoxiaojun.github.io</p>
+<p><img src="../images/repository-02.png" alt="repository-01"></p>
+<h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><ul>
+<li>快速，简单而高效的静态博客框架</li>
+</ul>
+<h3 id="Hexo初始化博客框架"><a href="#Hexo初始化博客框架" class="headerlink" title="Hexo初始化博客框架"></a>Hexo初始化博客框架</h3><p>1.安装Hexo</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g hexo-cli</div></pre></td></tr></table></figure>
+<p>2.初始化框架</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo init &lt;yourFolder&gt;</div><div class="line">$ cd &lt;yourFolder&gt;</div><div class="line">$ npm install</div></pre></td></tr></table></figure>
+<p>初始化完成后，指定文件夹的目录如下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">.</div><div class="line">├── _config.yml //网站的配置信息，您可以在此配置大部分的参数。</div><div class="line">├── package.json</div><div class="line">├── scaffolds //模版文件夹。当您新建文章时，Hexo 会根据 scaffold 来建立文件。</div><div class="line">├── source //资源文件夹是存放用户资源的地方。</div><div class="line">| ├── _drafts</div><div class="line">| └── _posts</div><div class="line">└── themes //主题文件夹。Hexo会根据主题来生成静态页面。</div></pre></td></tr></table></figure>
+<p>3.新建文章（创建一个hello world）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new &quot;Hello World&quot;</div></pre></td></tr></table></figure>
+<p>会在/source/_post里添加hello-world.md文件，之后新建的文章都将存放在此目录下。编辑hello-world.md文件可修改内容。</p>
+<p>4.生成网站</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate                #简写 hexo g</div></pre></td></tr></table></figure>
+<p>此时会将/source的.md文件生成到/public中，形成网站的静态文件。</p>
+<p>5.本地服务器</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server               #简写 hexo s   hexo s --debug</div></pre></td></tr></table></figure>
+<p>输入<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a> 即可查看网站。<br>可修改：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server -p 3000</div></pre></td></tr></table></figure>
+<p>此时，输入<a href="http://localhost:3000" target="_blank" rel="external">http://localhost:3000</a> 查看网站。</p>
+<p>6.部署网站</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy             #简写 hexo d</div></pre></td></tr></table></figure>
+<p>部署网站之前需要生成静态文件。<br>可以用$ hexo generate -d直接生成并部署。此时需要在_config.yml中配置你所要部署的站点：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy: </div><div class="line">  type: git</div><div class="line">  repository: http://github.com/mrhaoxiaojun/mrhaoxiaojun.github.io.git</div><div class="line">  branch: master</div></pre></td></tr></table></figure>
+<p>到此为止完成网站的雏形。输入yourname.github.io可访问博客主页。例如：<a href="http://mrhaoxiaojun.github.io/" target="_blank" rel="external">https://mrhaoxiaojun.github.io/</a> 。<br>绕坑：<br>部署的时候有可能会出错，别急，加这一步操作就ok了</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div></pre></td></tr></table></figure>
+<h2 id="Next主题"><a href="#Next主题" class="headerlink" title="Next主题"></a>Next主题</h2><p>NexT 主旨在于简洁优雅且易于使用，所以首先要尽量确保NexT的简洁易用性。</p>
+<p>这是一个扩展主题，由一个台湾学生<a href="https://github.com/iissnan" target="_blank" rel="external">iissnan</a>开发。主题秉承精于心，简于形的理念。</p>
+<ol>
+<li><p>下载Next主题         </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ cd your-hexo-site</div><div class="line">$ git clone https://github.com/iissnan/hexo-theme-next themes/next</div></pre></td></tr></table></figure>
+</li>
+<li><p>启用Next主题</p>
+<p>下载完成后，打开站点配置文件，找到theme字段，并将其值更改为 next。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"># Extensions</div><div class="line">## Plugins: http://hexo.io/plugins/</div><div class="line">## Themes: http://hexo.io/themes/</div><div class="line">theme: next</div></pre></td></tr></table></figure>
+</li>
+<li><p>验证是否可用<br>运行hexo s –debug，并访问<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a> ，确保站点正确运行。</p>
+</li>
+</ol>
+<p>附：</p>
+<ul>
+<li><a href="http://theme-next.iissnan.com/" target="_blank" rel="external">Next官网</a>–各种功能这里面都有，需要自己去配置，比如，评论，链接，打赏……</li>
+<li><a href="https://github.com/iissnan" target="_blank" rel="external">主题作者iissnan的博客</a></li>
+</ul>
+<h2 id="Markdown语法"><a href="#Markdown语法" class="headerlink" title="Markdown语法"></a>Markdown语法</h2><p>Markdown 是一种「电子邮件」风格的「标记语言]，Hexo支持Markdown。</p>
+<p>语法很简单，花十分钟网上找找学一下啊就可以</p>
+<p><a href="http://www.markdown.cn/" target="_blank" rel="external">Markdown中文网</a></p>
+<p><a href="http://www.appinn.com/markdown/#list" target="_blank" rel="external">Markdown语法说明（简体中文版）</a></p>
+<h3 id="Markdown-编辑器"><a href="#Markdown-编辑器" class="headerlink" title="Markdown 编辑器"></a>Markdown 编辑器</h3><p>网上搜索一下，网友推荐的Markdown编辑器很多，看个人选择。我对<a href="https://typora.io/" target="_blank" rel="external">Typora</a>这个产品比较有好感，所写即所得，就是爽。。。</p>
+<p><a href="https://typora.io/" target="_blank" rel="external">Typora</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;—–个人认为不用通篇阅读官方文档，网上很多包括我自己的博文基本可以初步搭建起来自己的博客，然后可能按照你的预想做东西还会有很多坑，再去查阅文档和其他资料，本博客略掉简单的操作步骤，但是会给大家提供一些较全的，零基础的博客地址，我主要是记录自己搭建是绕过的坑&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hexo.io/zh-cn/docs/&quot;&gt;Hexo官方帮助文档&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://opiece.me/2015/04/09/hexo-guide/&quot;&gt;3.0搭建教程&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;准备：配置开发环境&quot;&gt;&lt;a href=&quot;#准备：配置开发环境&quot; class=&quot;headerlink&quot; title=&quot;准备：配置开发环境&quot;&gt;&lt;/a&gt;准备：配置开发环境&lt;/h2&gt;&lt;p&gt;依次下载安装：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://nodejs.org/en/download/&quot;&gt;Node.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://git-scm.com/downloads&quot;&gt;Git&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;不要问我怎么安装，傻瓜式安装，下一步下一步，不会找谷歌&lt;/p&gt;
     
     </summary>
     
@@ -1377,10 +1525,11 @@ function unsetCookie(name) {
     <link href="http://yoursite.com/2016/12/28/hello-world/"/>
     <id>http://yoursite.com/2016/12/28/hello-world/</id>
     <published>2016-12-28T06:30:44.370Z</published>
-    <updated>2017-01-05T07:41:42.000Z</updated>
+    <updated>2017-03-13T07:18:26.000Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><a id="more"></a>
+<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
@@ -1392,7 +1541,8 @@ function unsetCookie(name) {
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;
     
     </summary>
     
