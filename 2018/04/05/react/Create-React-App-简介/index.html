@@ -96,7 +96,7 @@
 <meta property="og:description" content="Create-React-AppFacebook 官方推出Create-React-App脚手架，基本可以零配置搭建基于webpack的React开发环境，内置了热更新等功能。
 详细文档可前往链接：Create-React-App文档
 本文将介绍使用Create-React-App脚手架搭建的开发环境。">
-<meta property="og:updated_time" content="2018-04-10T02:54:28.374Z">
+<meta property="og:updated_time" content="2018-04-10T03:29:52.930Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Create-React-App">
 <meta name="twitter:description" content="Create-React-AppFacebook 官方推出Create-React-App脚手架，基本可以零配置搭建基于webpack的React开发环境，内置了热更新等功能。
@@ -385,27 +385,7 @@
 <p>npm run eject</p>
 </blockquote>
 <p>再查看myapp 文件夹，可以看到完整的项目结构：</p>
-<blockquote>
-<p>myapp/</p>
-<p>​    node_modules/</p>
-<p>​    <strong>package.json</strong></p>
-<p>​    .gitignore</p>
-<p>​    config/</p>
-<p>​        paths.js</p>
-<p>​        polyfills</p>
-<p>​        env.js</p>
-<p><strong>        webpack.config.dev.js</strong></p>
-<p><strong>        webpack.config.prod.js</strong></p>
-<p>​    public/</p>
-<p>​        index.html   / 入口html文件 /</p>
-<p>​    scripts/</p>
-<p><strong>        build.js</strong></p>
-<p><strong>        start.js</strong></p>
-<p>​        test.js</p>
-<p>​    src/</p>
-<p>​        App.js</p>
-<p>​        index.js    / 主入口文件 /</p>
-</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div></pre></td><td class="code"><pre><div class="line">myapp/</div><div class="line"></div><div class="line">    node_modules/</div><div class="line"></div><div class="line">    package.json</div><div class="line"></div><div class="line">    .gitignore</div><div class="line"></div><div class="line">    config/</div><div class="line"></div><div class="line">        paths.js</div><div class="line"></div><div class="line">        polyfills</div><div class="line"></div><div class="line">        env.js</div><div class="line"></div><div class="line">**        webpack.config.dev.js**</div><div class="line"></div><div class="line">**        webpack.config.prod.js**</div><div class="line"></div><div class="line">    public/</div><div class="line"></div><div class="line">        index.html   / 入口html文件 /</div><div class="line"></div><div class="line">    scripts/</div><div class="line"></div><div class="line">**        build.js**</div><div class="line"></div><div class="line">**        start.js**</div><div class="line"></div><div class="line">        test.js</div><div class="line"></div><div class="line">    src/</div><div class="line"></div><div class="line">        App.js</div><div class="line"></div><div class="line">        index.js    / 主入口文件 /</div></pre></td></tr></table></figure>
 <p>以上加粗文件为主要配置文件。</p>
 <h3 id="二、项目配置介绍"><a href="#二、项目配置介绍" class="headerlink" title="二、项目配置介绍"></a>二、项目配置介绍</h3><p>查看package.json文件的scripts，</p>
 <blockquote>
@@ -441,11 +421,25 @@
 <h2 id="自定义配置-amp-项目包装"><a href="#自定义配置-amp-项目包装" class="headerlink" title="自定义配置&amp;项目包装"></a>自定义配置&amp;项目包装</h2><h3 id="一、项目开发目录结构建设"><a href="#一、项目开发目录结构建设" class="headerlink" title="一、项目开发目录结构建设"></a>一、项目开发目录结构建设</h3><blockquote>
 <p>src/components 公共组件容器</p>
 <p>src/containers 页面组件容器</p>
-<p>src/fetch 接口服务容器</p>
-<p>src/redux 状态管理器容器</p>
+<p>src/fetch 接口服务容器 <a href="https://mrhaoxiaojun.github.io/2018/04/10/react/Axios%E5%BA%94%E7%94%A8%E6%95%99%E7%A8%8B/" target="_blank" rel="external">axios</a></p>
+<p>src/redux 状态管理器容器<a href="https://mrhaoxiaojun.github.io/2018/04/05/react/Redux%E6%87%B5%E9%80%BC%E4%B8%93%E5%B1%9E%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B/" target="_blank" rel="external">redux</a></p>
 <p>src/routes 路由容器</p>
 <p>src/static 静态资源容器</p>
 <p>src/until 工具类</p>
+</blockquote>
+<h3 id="二、其他插件-amp-组件配置"><a href="#二、其他插件-amp-组件配置" class="headerlink" title="二、其他插件&amp;组件配置"></a>二、其他插件&amp;组件配置</h3><blockquote>
+<p><a href="https://mrhaoxiaojun.github.io/2018/04/10/react/%20styled-components%20%E5%8A%A0%E9%80%9F%20React%20%E5%BC%80%E5%8F%91/" target="_blank" rel="external">styled-components</a> </p>
+<p><a href="https://mrhaoxiaojun.github.io/2018/04/10/react/Create-React-App-Less/" target="_blank" rel="external">less</a></p>
+<p><a href="http://ant-design.gitee.io/docs/react/introduce-cn" target="_blank" rel="external">ant-design-api文档</a></p>
+</blockquote>
+<h3 id="三、react开发项目完整搭建"><a href="#三、react开发项目完整搭建" class="headerlink" title="三、react开发项目完整搭建"></a>三、react开发项目完整搭建</h3><p>react-pc端完整的项目开发前技术栈demo已经搭建完成，包含：</p>
+<blockquote>
+<p>create-react-app 搭建基础框架 负责编译，打包，语法解析，接口代理等</p>
+<p>less CSS 预处理器技术应用</p>
+<p>styled-components 是一个常用的 css in js 类库 通过 js 赋能解决了原生 css 所不具备的能力，比如变量、循环、函数等 less可能我们用处已经就不大了，可以考虑拿掉less，全面拥抱新语法</p>
+<p>Axios 请求处理</p>
+<p>react-router 路由配置</p>
+<p>redux 状态管理</p>
 </blockquote>
 
       
@@ -479,8 +473,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/01/25/大前端/前端常见算法的JS实现/" rel="next" title="前端常见算法的JS实现">
-                <i class="fa fa-chevron-left"></i> 前端常见算法的JS实现
+              <a href="/2018/04/05/react/Redux懵逼专属简明教程/" rel="next" title="Redux懵逼专属简明教程">
+                <i class="fa fa-chevron-left"></i> Redux懵逼专属简明教程
               </a>
             
           </div>
@@ -489,8 +483,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/04/05/react/Redux懵逼专属简明教程/" rel="prev" title="Redux懵逼专属简明教程">
-                Redux懵逼专属简明教程 <i class="fa fa-chevron-right"></i>
+              <a href="/2018/04/10/react/Axios应用教程/" rel="prev" title="axios">
+                axios <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -677,7 +671,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Create-React-App"><span class="nav-number">1.</span> <span class="nav-text">Create-React-App</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#快速开始："><span class="nav-number">1.1.</span> <span class="nav-text">快速开始：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#环境配置介绍："><span class="nav-number">1.2.</span> <span class="nav-text">环境配置介绍：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、项目结构："><span class="nav-number">1.2.1.</span> <span class="nav-text">一、项目结构：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、项目配置介绍"><span class="nav-number">1.2.2.</span> <span class="nav-text">二、项目配置介绍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、开发环境，代理请求"><span class="nav-number">1.2.3.</span> <span class="nav-text">三、开发环境，代理请求</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#自定义配置-amp-项目包装"><span class="nav-number">1.3.</span> <span class="nav-text">自定义配置&项目包装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、项目开发目录结构建设"><span class="nav-number">1.3.1.</span> <span class="nav-text">一、项目开发目录结构建设</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Create-React-App"><span class="nav-number">1.</span> <span class="nav-text">Create-React-App</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#快速开始："><span class="nav-number">1.1.</span> <span class="nav-text">快速开始：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#环境配置介绍："><span class="nav-number">1.2.</span> <span class="nav-text">环境配置介绍：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、项目结构："><span class="nav-number">1.2.1.</span> <span class="nav-text">一、项目结构：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、项目配置介绍"><span class="nav-number">1.2.2.</span> <span class="nav-text">二、项目配置介绍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、开发环境，代理请求"><span class="nav-number">1.2.3.</span> <span class="nav-text">三、开发环境，代理请求</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#自定义配置-amp-项目包装"><span class="nav-number">1.3.</span> <span class="nav-text">自定义配置&项目包装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、项目开发目录结构建设"><span class="nav-number">1.3.1.</span> <span class="nav-text">一、项目开发目录结构建设</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、其他插件-amp-组件配置"><span class="nav-number">1.3.2.</span> <span class="nav-text">二、其他插件&组件配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、react开发项目完整搭建"><span class="nav-number">1.3.3.</span> <span class="nav-text">三、react开发项目完整搭建</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
